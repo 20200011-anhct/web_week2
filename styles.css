@@ -1,0 +1,77 @@
+#menu {
+    background-color: #e75959; /* Màu nền */
+    padding: 10px; /* Khoảng cách đệm bên trong */
+}
+
+#menu p {
+    display: inline-block; 
+    vertical-align: middle;
+    font-size: 22px; /* Cỡ chữ */
+    /* font-weight: bold; Chữ đậm */
+    margin-bottom: 10px; /* Khoảng cách dưới của đoạn văn */
+    color:white;
+    padding:0
+}
+
+
+#menu nav ul {
+    list-style-type: none; /* Loại bỏ dấu chấm đầu dòng */
+    padding: 0; /* Xóa khoảng đệm bên trong của danh sách */
+    margin-left: 80px
+}
+
+#menu nav ul li {
+    display: inline; /* Hiển thị các mục menu cùng một hàng */
+    margin-right: 20px; /* Khoảng cách giữa các mục menu */
+    
+}
+
+#menu nav ul li a {
+    text-decoration: none; /* Loại bỏ gạch chân dưới */
+    color: #ffffff; /* Màu chữ */
+    font-weight: bold; /* Chữ đậm */
+}
+
+#menu nav ul li a:hover {
+    color: #ff6600; /* Màu chữ khi di chuột qua */
+}
+
+
+#content {
+    margin-left: 100px;
+    display: flex;
+}
+
+#content p{
+    font-weight: bold;
+    color: red
+}
+
+.menu-hoso{
+    
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.menu-hoso li {
+    margin-left:5px;
+    margin-top: 20px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+
+.menu-hoso li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.menu-hoso li a:hover {
+    background-color: #f0f0f0;
+}
